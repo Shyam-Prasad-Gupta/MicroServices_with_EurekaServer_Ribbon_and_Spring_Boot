@@ -22,3 +22,13 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 .DS_STORE
+
+# for eclipse to ignore the eclipse project settings and class files
+.classpath
+.mvn/*
+.project
+.settings
+HELP.md
+mvnw
+mvnw.cmd
+target/*
