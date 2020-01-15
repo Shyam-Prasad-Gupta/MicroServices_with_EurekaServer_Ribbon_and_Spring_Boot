@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.shyam.microservices.dto.CurrencyConversionDTO;
 
 @RestController
-public class CurrencyConversionControllerFeignAndRibbon {
+public class CurrencyConversionControllerFeignAndRibbonAndEureka {
 
 	@Autowired
-	private CurrencyExchangeServiceProxyUsingFeignAndRibbonAndEureka feignProxy;
+	private CurrencyExchangeServiceProxyUsingFeignAndRibbon feignProxy;
 
-	@GetMapping("/currency-converter/feign/ribbon/from/{from}/to/{to}/quantity/{quantity}")
+	@GetMapping("/currency-converter/feign/ribbon/eureka/from/{from}/to/{to}/quantity/{quantity}")
 	public CurrencyConversionDTO convertCurrency(@PathVariable String from, @PathVariable String to,
 			@PathVariable BigDecimal quantity) {
 
