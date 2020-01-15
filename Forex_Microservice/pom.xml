@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.shyam.</groupId>
-	<artifactId>microservices</artifactId>
+	<artifactId>forexmicroservices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>microservices</name>
 	<description>Demo spring microservices using Spring Boot</description>

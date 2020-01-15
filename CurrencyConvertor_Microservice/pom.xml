@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.shyam.microservices</groupId>
-	<artifactId>ccms</artifactId>
+	<artifactId>currencyconvertor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ccms</name>
 	<description>Currency convertor microservice using spring boot</description>
